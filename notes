@@ -1,0 +1,828 @@
+ <!-- animation HTML CODE-->
+
+        <!-- <div class="animated">
+            <img src="./images/logo.jpg" alt="" class="rounded-circle animte animte1 ">
+        </div>
+        <div class="animated2">
+            <img src="./images/logo.jpg" alt="" class="rounded-circle animte animte2 ">
+        </div>
+        <div class="animated3">
+            <img src="./images/logo.jpg" alt="" class="rounded-circle animte animte3 ">
+        </div>
+        <div class="animated4">
+            <img src="./images/logo.jpg" alt="" class="rounded-circle animte animte4 ">
+        </div>
+        <div class="animated5">
+            <img src="./images/logo.jpg" alt="" class="rounded-circle animte animte5 ">
+        </div>
+        <div class="animated6">
+            <img src="./images/logo.jpg" alt="" class="rounded-circle animte animte6 ">
+        </div>
+        <div class="animated7">
+            <img src="./images/logo.jpg" alt="" class="rounded-circle animte animte7">
+        </div>
+        <div class="animated8">
+            <img src="./images/logo.jpg" alt="" class="rounded-circle animte animte8 ">
+        </div>
+        <div class="animated9">
+            <img src="./images/logo.jpg" alt="" class="rounded-circle animte animte9 ">
+        </div>
+        <div class="animated10">
+            <img src="./images/logo.jpg" alt="" class="rounded-circle animte animte10 ">
+        </div>
+        <div class="animated11">
+            <img src="./images/logo.jpg" alt="" class="rounded-circle animte animte11">
+        </div>
+        <div class="animated12">
+            <img src="./images/logo.jpg" alt="" class="rounded-circle animte animte12 ">
+        </div>
+        <div class="animated13">
+            <img src="./images/logo.jpg" alt="" class="rounded-circle animte animte13 ">
+        </div>
+        <div class="animated14">
+            <img src="./images/logo.jpg" alt="" class="rounded-circle animte animte14 ">
+        </div>
+        <div class="animated15">
+            <img src="./images/logo.jpg" alt="" class="rounded-circle animte animte15 ">
+        </div> -->
+
+<!--Animation CSS CODE-->   
+
+.animated {
+    position: relative;
+    top: 0px;
+    animation: animated1 4s linear infinite;
+
+}
+
+.animte {
+    width: 50px;
+    z-index: 2;
+    opacity: 0.4;
+}
+
+.animte:hover {
+    border-radius: 10px;
+    width: 60px;
+    filter: drop-shadow(5px 1px 9px rgb(0, 0, 0));
+    opacity: 1;
+
+}
+
+.animte1 {
+    position: absolute;
+    left: 20%;
+    top: 20px;
+
+}
+
+@keyframes animated1 {
+    0% {
+        position: absolute;
+        top: 0%;
+        left: 30%;
+        transform: rotatez(10deg);
+        display: none;
+        z-index: 1;
+
+    }
+
+    50% {
+        position: absolute;
+        top: 30%;
+        left: 30%;
+        transform: rotatez(20deg);
+        z-index: -1;
+        display: block;
+    }
+
+    70% {
+        position: absolute;
+        top: 50%;
+        left: 30%;
+        transform: rotatez(30deg);
+        z-index: -1;
+    }
+
+    100% {
+        position: absolute;
+        top: 80%;
+        left: 30%;
+        transform: rotatez(10deg);
+        display: none;
+        z-index: 1;
+    }
+}
+
+.animated2 {
+    position: relative;
+    top: 0px;
+    animation: animated2 6s linear infinite;
+}
+
+.animte2 {
+    position: absolute;
+    left: 10%;
+    top: 20px;
+
+}
+
+@keyframes animated2 {
+    0% {
+        position: absolute;
+        top: 0%;
+        left: 25%;
+        transform: rotatez(10deg);
+        display: none;
+        z-index: 1;
+    }
+
+    50% {
+        position: absolute;
+        top: 30%;
+        left: 25%;
+        transform: rotatez(20deg);
+        z-index: -1;
+        display: block;
+    }
+
+    70% {
+        position: absolute;
+        top: 50%;
+        left: 25%;
+        transform: rotatez(30deg);
+        z-index: -1;
+    }
+
+    100% {
+        position: absolute;
+        top: 80%;
+        left: 25%;
+        transform: rotatez(10deg);
+        display: none;
+        z-index: 1;
+    }
+}
+
+.animated3 {
+    position: relative;
+    top: 0px;
+    animation: animated3 8s linear infinite;
+
+}
+
+.animte3 {
+    position: absolute;
+    left: 8%;
+    top: 20px;
+
+}
+
+@keyframes animated3 {
+    0% {
+        position: absolute;
+        top: 0%;
+        left: 20%;
+        transform: rotatez(10deg);
+        display: none;
+        z-index: 1;
+    }
+
+    50% {
+        position: absolute;
+        top: 30%;
+        left: 20%;
+        transform: rotatez(20deg);
+        z-index: -1;
+        display: block;
+    }
+
+    70% {
+        position: absolute;
+        top: 50%;
+        left: 20%;
+        transform: rotatez(30deg);
+        z-index: -1;
+    }
+
+    100% {
+        position: absolute;
+        top: 80%;
+        left: 22%;
+        transform: rotatez(10deg);
+        display: none;
+        z-index: 1;
+    }
+}
+
+.animated4 {
+    position: relative;
+    top: 0px;
+    animation: animated4 10s linear infinite;
+
+}
+
+.animte4 {
+    position: absolute;
+    left: 8%;
+    top: 20px;
+
+}
+
+@keyframes animated4 {
+    0% {
+        position: absolute;
+        top: 0%;
+        left: 15%;
+        transform: rotatez(10deg);
+        display: none;
+        z-index: 1;
+    }
+
+    50% {
+        position: absolute;
+        top: 30%;
+        left: 15%;
+        transform: rotatez(20deg);
+        z-index: -1;
+        display: block;
+    }
+
+    70% {
+        position: absolute;
+        top: 50%;
+        left: 15%;
+        transform: rotatez(30deg);
+        z-index: -1;
+    }
+
+    100% {
+        position: absolute;
+        top: 80%;
+        left: 16%;
+        transform: rotatez(10deg);
+        display: none;
+        z-index: 1;
+    }
+}
+
+.animated5 {
+    position: relative;
+    top: 0px;
+    animation: animated5 12s linear infinite;
+
+}
+
+.animte5 {
+    position: absolute;
+    left: 8%;
+    top: 20px;
+
+}
+
+@keyframes animated5 {
+    0% {
+        position: absolute;
+        top: 0%;
+        left: 80%;
+        transform: rotatez(10deg);
+        display: none;
+        z-index: 1;
+    }
+
+    50% {
+        position: absolute;
+        top: 30%;
+        left: 80%;
+        transform: rotatez(20deg);
+        z-index: -1;
+        display: block;
+    }
+
+    70% {
+        position: absolute;
+        top: 50%;
+        left: 80%;
+        transform: rotatez(30deg);
+        z-index: -1;
+    }
+
+    100% {
+        position: absolute;
+        top: 80%;
+        left: 90%;
+        transform: rotatez(10deg);
+        display: none;
+        z-index: 1;
+    }
+}
+
+.animated6 {
+    position: relative;
+    top: 0px;
+    animation: animated6 14s linear infinite;
+
+}
+
+.animte6 {
+    position: absolute;
+    left: 8%;
+    top: 20px;
+
+}
+
+@keyframes animated6 {
+    0% {
+        position: absolute;
+        top: 0%;
+        left: 35%;
+        transform: rotatez(10deg);
+        display: none;
+        z-index: 1;
+    }
+
+    50% {
+        position: absolute;
+        top: 30%;
+        left: 35%;
+        transform: rotatez(20deg);
+        z-index: -1;
+        display: block;
+    }
+
+    70% {
+        position: absolute;
+        top: 50%;
+        left: 35%;
+        transform: rotatez(30deg);
+        z-index: -1;
+    }
+
+    100% {
+        position: absolute;
+        top: 80%;
+        left: 36%;
+        transform: rotatez(10deg);
+        display: none;
+        z-index: 1;
+    }
+}
+
+.animated7 {
+    position: relative;
+    top: 0px;
+    animation: animated7 16s linear infinite;
+
+}
+
+.animte7 {
+    position: absolute;
+    left: 8%;
+    top: 20px;
+
+}
+
+@keyframes animated7 {
+    0% {
+        position: absolute;
+        top: 0%;
+        left: 40%;
+        transform: rotatez(10deg);
+        display: none;
+        z-index: 1;
+    }
+
+    50% {
+        position: absolute;
+        top: 30%;
+        left: 40%;
+        transform: rotatez(20deg);
+        z-index: -1;
+        display: block;
+    }
+
+    70% {
+        position: absolute;
+        top: 50%;
+        left: 40%;
+        transform: rotatez(30deg);
+        z-index: -1;
+    }
+
+    100% {
+        position: absolute;
+        top: 80%;
+        left: 40%;
+        transform: rotatez(10deg);
+        display: none;
+        z-index: 1;
+    }
+}
+
+.animated8 {
+    position: relative;
+    top: 0px;
+    animation: animated8 5.8s linear infinite;
+
+}
+
+.animte8 {
+    position: absolute;
+    left: 8%;
+    top: 20px;
+
+}
+
+@keyframes animated8 {
+    0% {
+        position: absolute;
+        top: 0%;
+        left: 48%;
+        transform: rotatez(10deg);
+        display: none;
+        z-index: 1;
+    }
+
+    50% {
+        position: absolute;
+        top: 30%;
+        left: 48%;
+        transform: rotatez(20deg);
+        z-index: -1;
+        display: block;
+    }
+
+    70% {
+        position: absolute;
+        top: 50%;
+        left: 48%;
+        transform: rotatez(30deg);
+        z-index: -1;
+    }
+
+    100% {
+        position: absolute;
+        top: 80%;
+        left: 48%;
+        transform: rotatez(10deg);
+        display: none;
+        z-index: 1;
+    }
+}
+
+.animated9 {
+    position: relative;
+    top: 0px;
+    animation: animated9 9s linear infinite;
+
+}
+
+.animte9 {
+    position: absolute;
+    left: 8%;
+    top: 20px;
+
+}
+
+@keyframes animated9 {
+    0% {
+        position: absolute;
+        top: 0%;
+        left: 50%;
+        transform: rotatez(10deg);
+        display: none;
+        z-index: 1;
+    }
+
+    50% {
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: rotatez(20deg);
+        z-index: -1;
+        display: block;
+    }
+
+    70% {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: rotatez(30deg);
+        z-index: -1;
+    }
+
+    100% {
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        transform: rotatez(10deg);
+        display: none;
+        z-index: 1;
+    }
+}
+
+.animated10 {
+    position: relative;
+    top: 0px;
+    animation: animated10 3s linear infinite;
+
+}
+
+.animte10 {
+    position: absolute;
+    left: 8%;
+    top: 20px;
+
+}
+
+@keyframes animated10 {
+    0% {
+        position: absolute;
+        top: 0%;
+        left: 58%;
+        transform: rotatez(10deg);
+        display: none;
+        z-index: 1;
+    }
+
+    50% {
+        position: absolute;
+        top: 30%;
+        left: 58%;
+        transform: rotatez(20deg);
+        z-index: -1;
+        display: block;
+    }
+
+    70% {
+        position: absolute;
+        top: 50%;
+        left: 58%;
+        transform: rotatez(30deg);
+        z-index: -1;
+    }
+
+    100% {
+        position: absolute;
+        top: 80%;
+        left: 58%;
+        transform: rotatez(10deg);
+        display: none;
+        z-index: 1;
+    }
+}
+
+.animated11 {
+    position: relative;
+    top: 0px;
+    animation: animated11 16s linear infinite;
+
+}
+
+.animte11 {
+    position: absolute;
+    left: 8%;
+    top: 20px;
+
+}
+
+@keyframes animated11 {
+    0% {
+        position: absolute;
+        top: 0%;
+        left: 60%;
+        transform: rotatez(10deg);
+        display: none;
+        z-index: -1;
+    }
+
+    50% {
+        position: absolute;
+        top: 30%;
+        left: 60%;
+        transform: rotatez(20deg);
+        z-index: -1;
+        display: block;
+    }
+
+    70% {
+        position: absolute;
+        top: 50%;
+        left: 60%;
+        transform: rotatez(30deg);
+        z-index: -1;
+    }
+
+    100% {
+        position: absolute;
+        top: 80%;
+        left: 60%;
+        transform: rotatez(10deg);
+        display: none;
+        z-index: -1;
+    }
+}
+
+.animated12 {
+    position: relative;
+    top: 0px;
+    animation: animated12 11s linear infinite;
+
+}
+
+.animte12 {
+    position: absolute;
+    left: 8%;
+    top: 20px;
+
+}
+
+@keyframes animated12 {
+    0% {
+        position: absolute;
+        top: 0%;
+        left: 69%;
+        transform: rotatez(10deg);
+        display: none;
+        z-index: -1;
+    }
+
+    50% {
+        position: absolute;
+        top: 30%;
+        left: 69%;
+        transform: rotatez(20deg);
+        z-index: -1;
+        display: block;
+    }
+
+    70% {
+        position: absolute;
+        top: 50%;
+        left: 69%;
+        transform: rotatez(30deg);
+        z-index: -1;
+    }
+
+    100% {
+        position: absolute;
+        top: 80%;
+        left: 69%;
+        transform: rotatez(10deg);
+        display: none;
+        z-index: -1;
+    }
+}
+
+.animated13 {
+    position: relative;
+    top: 0px;
+    animation: animated13 9.9s linear infinite;
+
+}
+
+.animte13 {
+    position: absolute;
+    left: 8%;
+    top: 20px;
+
+}
+
+@keyframes animated13 {
+    0% {
+        position: absolute;
+        top: 0%;
+        left: 72%;
+        transform: rotatez(10deg);
+        display: none;
+        z-index: -1;
+    }
+
+    50% {
+        position: absolute;
+        top: 30%;
+        left: 72%;
+        transform: rotatez(20deg);
+        z-index: -1;
+        display: block;
+    }
+
+    70% {
+        position: absolute;
+        top: 50%;
+        left: 72%;
+        transform: rotatez(30deg);
+        z-index: -1;
+    }
+
+    100% {
+        position: absolute;
+        top: 80%;
+        left: 72%;
+        transform: rotatez(10deg);
+        display: none;
+        z-index: -1;
+    }
+}
+
+.animated14 {
+    position: relative;
+    top: 0px;
+    animation: animated14 20s linear infinite;
+
+}
+
+.animte14 {
+    position: absolute;
+    left: 8%;
+    top: 20px;
+
+}
+
+@keyframes animated14 {
+    0% {
+        position: absolute;
+        top: 0%;
+        left: 78%;
+        transform: rotatez(10deg);
+        display: none;
+        z-index: -1;
+    }
+
+    50% {
+        position: absolute;
+        top: 30%;
+        left: 78%;
+        transform: rotatez(20deg);
+        z-index: -1;
+        display: block;
+    }
+
+    70% {
+        position: absolute;
+        top: 50%;
+        left: 78%;
+        transform: rotatez(30deg);
+        z-index: -1;
+    }
+
+    100% {
+        position: absolute;
+        top: 80%;
+        left: 78%;
+        transform: rotatez(10deg);
+        display: none;
+        z-index: -1;
+    }
+}
+
+.animated15 {
+    position: relative;
+    top: 0px;
+    animation: animated15 11.9s linear infinite;
+
+}
+
+.animte15 {
+    position: absolute;
+    left: 8%;
+    top: 20px;
+
+}
+
+@keyframes animated15 {
+    0% {
+        position: absolute;
+        top: 0%;
+        left: 83%;
+        transform: rotatez(10deg);
+        display: none;
+        z-index: 1;
+    }
+
+    50% {
+        position: absolute;
+        top: 30%;
+        left: 83%;
+        transform: rotatez(20deg);
+        z-index: -1;
+        display: block;
+    }
+
+    70% {
+        position: absolute;
+        top: 50%;
+        left: 83%;
+        transform: rotatez(30deg);
+        z-index: -1;
+    }
+
+    100% {
+        position: absolute;
+        top: 80%;
+        left: 83%;
+        transform: rotatez(10deg);
+        display: none;
+        z-index: -1;
+    }
+}
